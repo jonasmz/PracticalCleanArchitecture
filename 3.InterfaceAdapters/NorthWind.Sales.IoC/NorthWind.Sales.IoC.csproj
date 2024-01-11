@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2.AplicationBusinessRules\NortWind.Sales.UseCases\NortWind.Sales.UseCases.csproj" />
+    <ProjectReference Include="..\Presenters\NorthWind.Sales.Presenters\NorthWind.Sales.Presenters.csproj" />
+    <ProjectReference Include="..\Gateways\Repositories\Nortwind.EFCore.Repositories\Nortwind.EFCore.Repositories.csproj" />
+    <ProjectReference Include="..\Controllers\NortWind.Sales.Controllers\NortWind.Sales.Controllers.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

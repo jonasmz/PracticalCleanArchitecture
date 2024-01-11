@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.EnterpriseBusinessRules", "1.EnterpriseBusinessRules", "{67E0175E-6974-4B01-AE42-2758F86D6EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NortWind.Entities", "1.EnterpriseBusinessRules\NortWind.Entities\NortWind.Entities.csproj", "{414DCEE5-CD48-4D10-AF15-E5D83B72568B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.AplicationBusinessRules", "2.AplicationBusinessRules", "{F4D013D8-65C2-47D3-8F1C-B6F45BF65AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NortWind.Sales.BusinessObjects", "2.AplicationBusinessRules\NortWind.Sales.BusinessObjects\NortWind.Sales.BusinessObjects.csproj", "{D4CE2F2F-4D0B-48EA-89B8-6CA8F05E69D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NortWind.Sales.UseCases", "2.AplicationBusinessRules\NortWind.Sales.UseCases\NortWind.Sales.UseCases.csproj", "{75B76EE4-F83B-45F9-9C63-8FA1589DA57A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.InterfaceAdapters", "3.InterfaceAdapters", "{1F2CF35C-3F65-4E96-B4B3-4646446ABC91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{C9E0BC9A-56DA-4619-8D56-FC6E1F48776F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{BF05BBC8-31C1-4EE6-AFED-42F742F6C688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nortwind.EFCore.Repositories", "3.InterfaceAdapters\Gateways\Repositories\Nortwind.EFCore.Repositories\Nortwind.EFCore.Repositories.csproj", "{DA9F850B-3A88-4681-A8BD-9C68C9F26F3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", "{8EE5F489-A730-47F5-BCCC-94561441AE35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Presenters", "3.InterfaceAdapters\Presenters\NorthWind.Sales.Presenters\NorthWind.Sales.Presenters.csproj", "{9FA20A35-E505-47A5-8986-B28384F241B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{664A448A-945B-4CF9-A4C6-845F59406D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NortWind.Sales.Controllers", "3.InterfaceAdapters\Controllers\NortWind.Sales.Controllers\NortWind.Sales.Controllers.csproj", "{D0A60F41-B032-4FE1-AE41-B9AEB14F65CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.IoC", "3.InterfaceAdapters\NorthWind.Sales.IoC\NorthWind.Sales.IoC.csproj", "{86543E46-64D1-4534-A9EC-D3EA19DA61D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.FrameworksAndDrivers", "4.FrameworksAndDrivers", "{BE237CF7-CDD4-4850-BBA3-AFBE72919FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIs", "UIs", "{5C9196FE-6CAF-4B0E-A7FF-F87E7AD181D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.WebApi", "4.FrameworksAndDrivers\UIs\NorthWind.Sales.WebApi\NorthWind.Sales.WebApi.csproj", "{78AC7035-3F69-4CBA-A638-C0E86CAF8EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414DCEE5-CD48-4D10-AF15-E5D83B72568B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414DCEE5-CD48-4D10-AF15-E5D83B72568B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414DCEE5-CD48-4D10-AF15-E5D83B72568B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414DCEE5-CD48-4D10-AF15-E5D83B72568B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CE2F2F-4D0B-48EA-89B8-6CA8F05E69D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CE2F2F-4D0B-48EA-89B8-6CA8F05E69D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CE2F2F-4D0B-48EA-89B8-6CA8F05E69D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CE2F2F-4D0B-48EA-89B8-6CA8F05E69D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B76EE4-F83B-45F9-9C63-8FA1589DA57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B76EE4-F83B-45F9-9C63-8FA1589DA57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B76EE4-F83B-45F9-9C63-8FA1589DA57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B76EE4-F83B-45F9-9C63-8FA1589DA57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9F850B-3A88-4681-A8BD-9C68C9F26F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9F850B-3A88-4681-A8BD-9C68C9F26F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9F850B-3A88-4681-A8BD-9C68C9F26F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9F850B-3A88-4681-A8BD-9C68C9F26F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA20A35-E505-47A5-8986-B28384F241B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA20A35-E505-47A5-8986-B28384F241B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA20A35-E505-47A5-8986-B28384F241B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA20A35-E505-47A5-8986-B28384F241B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A60F41-B032-4FE1-AE41-B9AEB14F65CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A60F41-B032-4FE1-AE41-B9AEB14F65CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A60F41-B032-4FE1-AE41-B9AEB14F65CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A60F41-B032-4FE1-AE41-B9AEB14F65CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86543E46-64D1-4534-A9EC-D3EA19DA61D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86543E46-64D1-4534-A9EC-D3EA19DA61D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86543E46-64D1-4534-A9EC-D3EA19DA61D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86543E46-64D1-4534-A9EC-D3EA19DA61D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AC7035-3F69-4CBA-A638-C0E86CAF8EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AC7035-3F69-4CBA-A638-C0E86CAF8EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AC7035-3F69-4CBA-A638-C0E86CAF8EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AC7035-3F69-4CBA-A638-C0E86CAF8EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{414DCEE5-CD48-4D10-AF15-E5D83B72568B} = {67E0175E-6974-4B01-AE42-2758F86D6EBE}
+		{D4CE2F2F-4D0B-48EA-89B8-6CA8F05E69D9} = {F4D013D8-65C2-47D3-8F1C-B6F45BF65AD7}
+		{75B76EE4-F83B-45F9-9C63-8FA1589DA57A} = {F4D013D8-65C2-47D3-8F1C-B6F45BF65AD7}
+		{C9E0BC9A-56DA-4619-8D56-FC6E1F48776F} = {1F2CF35C-3F65-4E96-B4B3-4646446ABC91}
+		{BF05BBC8-31C1-4EE6-AFED-42F742F6C688} = {C9E0BC9A-56DA-4619-8D56-FC6E1F48776F}
+		{DA9F850B-3A88-4681-A8BD-9C68C9F26F3A} = {BF05BBC8-31C1-4EE6-AFED-42F742F6C688}
+		{8EE5F489-A730-47F5-BCCC-94561441AE35} = {1F2CF35C-3F65-4E96-B4B3-4646446ABC91}
+		{9FA20A35-E505-47A5-8986-B28384F241B9} = {8EE5F489-A730-47F5-BCCC-94561441AE35}
+		{664A448A-945B-4CF9-A4C6-845F59406D71} = {1F2CF35C-3F65-4E96-B4B3-4646446ABC91}
+		{D0A60F41-B032-4FE1-AE41-B9AEB14F65CF} = {664A448A-945B-4CF9-A4C6-845F59406D71}
+		{86543E46-64D1-4534-A9EC-D3EA19DA61D4} = {1F2CF35C-3F65-4E96-B4B3-4646446ABC91}
+		{5C9196FE-6CAF-4B0E-A7FF-F87E7AD181D6} = {BE237CF7-CDD4-4850-BBA3-AFBE72919FC2}
+		{78AC7035-3F69-4CBA-A638-C0E86CAF8EFE} = {5C9196FE-6CAF-4B0E-A7FF-F87E7AD181D6}
+	EndGlobalSection
+EndGlobal
